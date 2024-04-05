@@ -7,7 +7,6 @@ import { Button } from '../ui/button'
 import { useState } from 'react'
 import { auth } from '@/firebase/config'
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth'
-import { toast } from 'sonner'
 
 const LoginModal = () => {
 	const loginSetting = useLoginModal()
